@@ -1,5 +1,6 @@
 #!/usr/bin/bash
 # For CentOS 8
+# Last Modified by Tom Moore on 5/12/2021
 yum -y update
 yum -y install curl tee
 rpm --import https://repo.saltproject.io/py3/redhat/8/x86_64/latest/SALTSTACK-GPG-KEY.pub
